@@ -10,15 +10,16 @@ nav_order: 6
 <span style="color: blue; font-weight: bold;">Note for prospective students</span><br> I do not offer short-term internship or research assistantship opportunities. Please contact me only if you are seeking a commitment of at least one year. <br><br>
 
 **Supervising (Degree Students)**
-  - Neil Shah (PhD)
-  - Aishwarya Agarwal (PhD) - part-time with Adobe Research
-  - Yash Sonkar (PhD)
-  - Desu Venkata Manikanta (PhD) - part-time with TCS Research
-  - Yasaswi Kilaru Chandra Gandhi (MS by research)
-  - Adhiraj Anil Deshmukh (Dual Degree)
-  - Bhav Beri (Dual Degree)
-  - T Santoshi (MS by research) - part-time with ISRO
-  - Ayan Kashyap (MS by research)
+  - [Neil Shah](https://www.linkedin.com/in/neil-shah-1548ba94/) (PhD)
+  - [Aishwarya Agarwal](https://aisagarw.github.io/) (PhD) - part-time with Adobe Research
+  - [Yash Sonkar](https://www.linkedin.com/in/yash-sonkar-5a5914227/) (PhD)
+  - [Desu Venkata Manikanta](https://www.linkedin.com/in/desu-venkata-manikanta-207840a5/) (PhD) - part-time with TCS Research
+  - [Yasaswi Kilaru Chandra Gandhi](https://kyscg.github.io/) (MS by research)
+  - [Adhiraj Anil Deshmukh](https://www.linkedin.com/in/adhi01/) (Dual Degree)
+  - [Akshat Shah](https://www.linkedin.com/in/akshat-shah-6aa073229/) (Dual Degree)
+  - [Bhav Beri](https://github.com/bhavberi) (Dual Degree)
+  - [T Santoshi](https://www.linkedin.com/in/santhoshi-t/) (MS by research) - part-time with ISRO
+  - [Ayan Kashyap](https://www.linkedin.com/in/ayan-kashyap/) (MS by research)
   - Siddharth Jain (MS by research)
   - Sudheera Yelimeli (Dual Degree)
 
