@@ -502,4 +502,25 @@ preview = {qual.jpg},
 abstract = {The current Document Image Quality Assessment (DIQA) algorithms directly relate the Optical Character Recognition (OCR) accuracies with the quality of the document to build supervised learning frameworks. This direct correlation has two major limitations: (a) OCR may be affected by factors independent of the quality of the capture and (b) it cannot account for blur variations within an image. An alternate possibility is to quantify the quality of capture using human judgement, however, it is subjective and prone to error. In this work, we build upon the idea of Spatial Frequency Re- sponse (SFR) to reliably quantify the quality of a document image. We present through quantitative and qualitative exper- iments that the proposed metric leads to significant improve- ment in document quality prediction in contrast to using OCR as ground truth.},
 }
 
+@inproceedings{Shah-ICASSP-2018, 
+bibtex_show={true},
+title = {An Iterative approach for Shadow Removal in Document Images}, 
+author = {Shah, Vatsal and Gandhi, Vineet}, 
+booktitle = {International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}, 
+pdf = {https://faculty.iiit.ac.in/~vgandhi/papers/shadow_removal_camera_ready.pdf},
+year = {2018},
+preview = {shadow.jpg},
+abstract = {Uneven illumination and shadows in document images cause a challenge for digitization applications and automated work- flows. In this work, we propose a new method to recover un- shadowed document images from images with shadows/un- even illumination. We pose this problem as one of estimating the shading and reflectance components of the given original image. Our method first estimates the shading and uses it to compute the reflectance. The output reflectance map is then used to improve the shading and the process is repeated in an iterative manner. The iterative procedure allows for a gradual compensation and allows our algorithm to even handle diffi- cult hard shadows without introducing any artifacts. Experi- ments over two different datasets demonstrate the efficacy of our algorithm and the low computation complexity makes it suitable for most practical applications.}
+}
+
+@inproceedings{anand-WACV-2018, 
+bibtex_show={true},
+title = {Automated Top View Registration of Broadcast Football Videos}, 
+author = {Sharma, Rahul and Bhat, Bharath and Gandhi, Vineet and Jawahar, CV}, 
+booktitle = {Winter Conference in Computer Vision (WACV)}, 
+pdf = {https://faculty.iiit.ac.in/~vgandhi/papers/sbgj_wacv_2018.pdf},
+year = {2018},
+preview = {soccer.jpg},
+abstract = {n this paper, we propose a fully automatic method to register football broadcast video frames on the static top view model of the playing surface. Automatic registration has been difficult due to the difficulty of finding sufficient point correspondences. We investigate an alternate ap- proach exploiting the edge information from the line mark- ings on the field. We formulate the registration problem as a nearest neighbour search over a synthetically generated dictionary of edge map and homography pairs. The syn- thetic dictionary generation allows us to exhaustively cover a wide variety of camera angles and positions and reduces this problem to a minimal per-frame edge map matching problem. We show that the per-frame results can be fur- ther improved in videos using an optimization framework for temporal camera stabilization. We demonstrate the ef- ficacy of our approach by presenting extensive results on a dataset collected from matches of the football World Cup 2014 and show significant improvement over the current state of the art.}
+}
 
