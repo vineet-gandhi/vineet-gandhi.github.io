@@ -20,6 +20,7 @@ nav_order: 6
   - [Bhav Beri](https://github.com/bhavberi) (Dual Degree)
   - [T Santoshi](https://www.linkedin.com/in/santhoshi-t/) (MS by research) - part-time with ISRO
   - [Ayan Kashyap](https://www.linkedin.com/in/ayan-kashyap/) (MS by research)
+  - [Charan Sahit Lenka](https://www.linkedin.com/in/charan-sahit-lenka-a33440222) (MS by research)
   - Siddharth Jain (MS by research)
   - Sudheera Yelimeli (Dual Degree)
 

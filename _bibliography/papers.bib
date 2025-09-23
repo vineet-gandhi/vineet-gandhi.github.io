@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{Jain_TMLR_2025,
+  bibtex_show={true},
+  author = {Jain, Siddharth and Karthik, Shyamgopal and Gandhi, Vineet},
+  title = {{Simplifying Knowledge Transfer in Pretrained Models}},
+  year = {2025},
+  booktitle = {Transactions on Machine Learning Research (TMLR)},
+  month = Sep,
+  preview={bikd.jpg},
+  pdf = {https://openreview.net/pdf?id=eQ9AVtDaP3},
+  abstract={Pretrained models are ubiquitous in the current deep learning landscape, offering strong results on a broad range of tasks. Recent works have shown that models differing in various design choices exhibit categorically diverse generalization behavior, resulting in one model grasping distinct data-specific insights unavailable to the other. In this paper, we propose to leverage large publicly available model repositories as an auxiliary source of model improvements. We introduce a data partitioning strategy where pretrained models autonomously adopt either the role of a student, seeking knowledge, or that of a teacher, imparting knowledge. Experiments across various tasks demonstrate the effectiveness of our proposed approach. In image classification, we improved the performance of ViT-B by approximately 1.4\% through bidirectional knowledge transfer with ViT-T. For semantic segmentation, our method boosted all evaluation metrics by enabling knowledge transfer both within and across backbone architectures. In video saliency prediction, our approach achieved a new state-of-the-art. We further extend our approach to knowledge transfer between multiple models, leading to considerable performance improvements for all model participants.}
+}
+
 @inproceedings{Shah_Interspeech_2025,
   bibtex_show={true},
   author = {Shah, Neil and Karande, Shirish and Gandhi, Vineet},
@@ -11,6 +23,7 @@
   booktitle = {Interspeech},
   month = Aug,
   preview={interspeech_2025_nam.jpg},
+  pdf = {https://www.isca-archive.org/interspeech_2025/shah25_interspeech.pdf},
   html = {https://noalignnam.github.io/autoregressiveNAM/},
   abstract={We propose an alignment-free, end-to-end Non-Audible Murmur (NAM)-to-Speech conversion model. Existing methods rely on large NAM-text pairs per speaker to generate high-quality alignments for training non-autoregressive models. However, alignment quality deteriorates when trained on multi-speaker data, limiting their ability to generalize and effectively utilize the available training data. To address this, we introduce a streamlined autoregressive approach that eliminates the need for explicit alignment learning. By leveraging multi-speaker samples, synthetic training pairs, and multitask character recognition training, our method reduces the word error rate (WER) by 59.19% compared to the state-of-the-art (SOTA) on two public datasets. We demonstrate the model’s zero-shot capability and validate the effectiveness of multitask training through ablation studies.}
 }
