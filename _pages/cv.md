@@ -2,7 +2,7 @@
 layout: page
 permalink: /cv/
 title: Curriculum Vitae
-nav: true
+nav: false
 nav_order: 5
 _styles: >
   .pdf-container {
