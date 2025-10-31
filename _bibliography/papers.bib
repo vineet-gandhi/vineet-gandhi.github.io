@@ -592,3 +592,48 @@ pdf = {https://faculty.iiit.ac.in/~vgandhi/Phd_Thesis_Vineet_Gandhi.pdf},
 year = {2014}
 }
 
+
+@inproceedings{gandhi-cvmp-2014, 
+bibtex_show={true},
+title = {Multi-Clip Video Editing from a Single Viewpoint}, 
+author = {Gandhi, Vineet and Ronfard, Remi and Gleicher, Michael}, 
+booktitle = {European Conference on Visual Media Production (CVMP)}, 
+pdf = {https://imagine.inrialpes.fr/people/vgandhi/GRG_CVMP_2014.pdf},
+year = {2014},
+preview = {reframed_shot.png},
+abstract = {We propose a framework for automatically generating multiple clips suitable for video editing by simulating pan-tilt-zoom camera movements within the frame of a single static camera. Assuming important actors and objects can be localized using computer vision techniques, our method requires only minimal user input to define the subject matter of each sub-clip. The composition of each sub-clip is automatically computed in a novel L1-norm optimization framework. Our approach encodes several common cinematographic practices into a single convex cost function minimization problem, resulting in aesthetically-pleasing sub-clips which can easily be edited together using off-the-shelf multi-clip video editing software. We demonstrate our approach on five video sequences of a live theatre performance by generating multiple synchronized sub-clips for each sequence.}
+}
+
+@inproceedings{gandhi-cvpr-2012, 
+bibtex_show={true},
+title = {Detecting and naming actors in movies using generative appearance models}, 
+author = {Gandhi, Vineet and Ronfard, Remi}, 
+booktitle = {Computer Vision and Pattern Recognition (CVPR) }, 
+pdf = {https://inria.hal.science/file/index/docid/814197/filename/gandhironfard_cvpr2013_light.pdf},
+year = {2013},
+preview = {cvpr_2013_1.png},
+abstract = {We introduce a generative model for learning person and costume specific detectors from labeled examples. We demonstrate the model on the task of localizing and nam- ing actors in long video sequences. More specifically, the actor’s head and shoulders are each represented as a con- stellation of optional color regions. Detection can proceed despite changes in view-point and partial occlusions. We explain how to learn the models from a small number of la- beled keyframes or video tracks, and how to detect novel appearances of the actors in a maximum likelihood frame- work. We present results on a challenging movie example, with 81% recall in actor detection (coverage) and 89% pre- cision in actor identification (naming).}
+}
+
+@inproceedings{ronfard-wiced-2013, 
+bibtex_show={true},
+title = {The Prose Storyboard Language: A Tool for Annotating and Directing Movies}, 
+author = {Ronfard, Remi and Gandhi, Vineet and Boiron, Laurent}, 
+booktitle = {Workshop on Intelligent Cinematography and Editing part of Foundations of Digital Games (FDG)}, 
+pdf = {https://inria.hal.science/file/index/docid/814216/filename/ProseSBlight.pdf},
+year = {2013},
+preview = {wiced.png},
+abstract = {The prose storyboard language is a formal language for describing movies shot by shot, where each shot is described with a unique sentence. The language uses a simple syntax and limited vocabulary borrowed from working practices in traditional movie-making, and is intended to be readable both by machines and humans. The language is designed to serve as a high-level user interface for intelligent cinematography and editing systems.}
+}
+
+
+@inproceedings{gandhi-icra-2012, 
+bibtex_show={true},
+title = {High-Resolution Depth Maps Based on TOF-Stereo Fusion}, 
+author = {Gandhi, Vineet and Cech, Jan and Horaud, Radu}, 
+booktitle = {International Conference on Robotics and Automation (ICRA)}, 
+pdf = {https://faculty.iiit.ac.in/~vgandhi/ICDAR_2017/DIQA_ICDAR.pdf},
+year = {2012},
+preview ={system.png},
+abstract = {The combination of range sensors with color cameras can be very useful for robot navigation, semantic perception, manipulation, and telepresence. Several methods of combining range- and color-data have been investigated and successfully used in various robotic applications. Most of these systems suffer from the problems of noise in the range-data and resolution mismatch between the range sensor and the color cameras, since the resolution of current range sensors is much less than the resolution of color cameras. High-resolution depth maps can be obtained using stereo matching, but this often fails to construct accurate depth maps of weakly/repetitively textured scenes, or if the scene exhibits complex self-occlusions. Range sensors provide coarse depth information regardless of presence/absence of texture. The use of a calibrated system, composed of a time-of-flight (TOF) camera and of a stereoscopic camera pair, allows data fusion thus overcoming the weaknesses of both individual sensors. We propose a novel TOF-stereo fusion method based on an efficient seed-growing algorithm which uses the TOF data projected onto the stereo image pair as an initial set of correspondences. These initial ''seeds'' are then propagated based on a Bayesian model which combines an image similarity score with rough depth priors computed from the low-resolution range data. The overall result is a dense and accurate depth map at the resolution of the color cameras at hand. We show that the proposed algorithm outperforms 2D image-based stereo algorithms and that the results are of higher resolution than off-the-shelf color-range sensors, e.g., Kinect. Moreover, the algorithm potentially exhibits real-time performance on a single CPU.}
+}
