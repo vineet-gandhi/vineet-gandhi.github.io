@@ -544,6 +544,7 @@ author = {Rai, Pranjal Kumar and Maheshwari, Sajal and Mehta, Ishit and Sakurika
 booktitle = {International Conference on Document Analysis and Recognition (ICDAR)}, 
 pdf = {https://faculty.iiit.ac.in/~vgandhi/ICDAR_2017/DIQA_ICDAR.pdf},
 year = {2018},
+preview = {ICDAR_2017.jpg},
 abstract = {The current document blur/quality estimation algorithms rely on the OCR accuracy to measure their success. A sharp document image, however, at times may yield lower OCR accuracy owing to factors independent of blur or quality of capture. The necessity to rely on OCR is mainly due to the difficulty in quantifying the quality otherwise. In this work, we overcome this limitation by proposing a novel dataset for document blur estimation, for which we physically quantify the blur using a capture set-up which computationally varies the focal distance of the camera. We also present a selective search mechanism to improve upon the recently successful patch-based learning approaches (using codebooks or convolutional neural networks). We present a thorough analysis of the improved blur estimation pipeline using correlation with OCR accuracy as well as the actual amount of blur. Our experiments demonstrate that our method outperforms the current state-of-the-art by a significant margin.}
 }
 
@@ -554,6 +555,7 @@ author = {Kumar, Moneish and Gandhi, Vineet and Ronfard, Remi and Gleicher, Mich
 booktitle = {Eurographics (Computer Graphics Forum)}, 
 pdf = {https://faculty.iiit.ac.in/~vgandhi/vgandhi_files/Kumar_Eurographics_2017.pdf},
 year = {2017},
+preview = {0961new.jpg},
 abstract = {Recordings of stage performances are easy to capture with a high-resolution camera, but are difficult to watch because the actors’ faces are too small. We present an approach to automatically create a split screen video that transforms these recordings to show both the context of the scene as well as close-up details of the actors. Given a static recording of a stage performance and tracking information about the actors positions, our system generates videos showing a focus+context view based on computed close-up camera motions using crop-and zoom. The key to our approach is to compute these camera motions such that they are cinematically valid close-ups and to ensure that the set of views of the different actors are properly coordinated and presented. We pose the computation of camera motions as convex optimization that creates detailed views and smooth movements, subject to cinematic constraints such as not cutting faces with the edge of the frame. Additional constraints link the close up views of each actor, causing them to merge seamlessly when actors are close. Generated views are placed in a resulting layout that preserves the spatial relationships between actors. We demonstrate our results on a variety of staged theater and dance performances.}
 }
 
@@ -565,6 +567,28 @@ author = {Rai, Pranjal Kumar and Maheshwari, Sajal and Sharma, Gopal and Gandhi,
 booktitle = {ICVGIP}, 
 pdf = {https://faculty.iiit.ac.in/~vgandhi/vgandhi_files/sajal_icvgip_2017.pdf},
 year = {2016},
+preview = {icvgip.png},
 abstract = {We present an algorithm for automatic blur detection of document images using a novel approach based on edge intensity profiles. Our main insight is that the edge profiles are a strong indicator of the blur present in the image, with steep profiles implying sharper regions and gradual profiles implying blurred regions. Our approach first retrieves the profiles for each point of intensity transition (each edge point) along the gradient and then uses them to output a quantitative measure indicating the extent of blur in the input image. The real time performance of the proposed approach makes it suitable for most applications. Additionally, our method works for both hand written and digital documents and is agnostic to the font types and sizes, which gives it a major advantage over the currently prevalent learning based approaches. Extensive quantitative and qualitative experiments over two different datasets show that our method outperforms almost all algorithms in current state of the art by a significant margin, especially in cross dataset experiments.}
+}
+
+@inproceedings{gandhi-wiced-2016, 
+bibtex_show={true},
+title = {A Computational Framework for Vertical Video Editing}, 
+author = {Gandhi, Vineet and Ronfard, Remi}, 
+booktitle = {Eurographics workshop on intelligent cinematography and editing (WICED) }, 
+pdf = {hal.inria.fr/hal-01160591/document},
+year = {2016},
+preview = {wiced16.jpg},
+abstract = {Vertical video editing is the process of digitally editing the image within the frame as opposed to horizontal video editing, which arranges the shots along a timeline. Vertical editing can be a time-consuming and error-prone process when using manual key-framing and simple interpolation. In this paper, we present a general framework for automatically computing a variety of cinematically plausible shots from a single input video suitable to the special case of live performances. Drawing on working practices in traditional cinematography, the system acts as a virtual camera assistant to the film editor, who can call novel shots in the edit room with a combination of high-level instructions and manually selected keyframes.}
+}
+
+@inproceedings{gandhi-thesis-2018, 
+bibtex_show={true},
+title = {Automatic Rush Generation with Application to Theatre Performances}, 
+author = {Gandhi, Vineet}, 
+booktitle = {PhD dissertation}, 
+preview = {virtual_camera_setup.png};
+pdf = {https://faculty.iiit.ac.in/~vgandhi/Phd_Thesis_Vineet_Gandhi.pdf},
+year = {2014}
 }
 
