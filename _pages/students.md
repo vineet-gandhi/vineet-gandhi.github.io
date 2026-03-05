@@ -11,7 +11,7 @@ nav_order: 6
 
 **Supervising (Degree Students)**
   - [Neil Shah](https://www.linkedin.com/in/neil-shah-1548ba94/) (PhD)
-  - [Aishwarya Agarwal](https://aisagarw.github.io/) (PhD) - part-time with Adobe Research
+  - [Aishwarya Agarwal](https://aisagarw.github.io/) (PhD) - jointly advised with Srikrishna Karanam at Adobe Research
   - [Yash Sonkar](https://www.linkedin.com/in/yash-sonkar-5a5914227/) (PhD)
   - [Desu Venkata Manikanta](https://www.linkedin.com/in/desu-venkata-manikanta-207840a5/) (PhD) - part-time with TCS Research
   - [Yasaswi Kilaru Chandra Gandhi](https://kyscg.github.io/) (MS by research)
