@@ -1,6 +1,31 @@
 ---
 ---
 
+@inproceedings{CVPR_CCI_2026,
+  bibtex_show={true},
+  author = {Agarwal, Aishwarya and Karanam, Srikrishna and Gandhi, Vineet},
+  title = {{Concept Regions Matter: Benchmarking CLIP with a New Cluster-Importance Approach}},
+  year = {2026},
+  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = Jun,
+  preview={cci.jpg},
+  pdf = {https://arxiv.org/abs/2511.12978},
+  abstract={Contrastive vision-language models (VLMs) such as CLIP achieve strong zero-shot recognition yet remain vulnerable to spurious correlations, particularly background over-reliance. We introduce Cluster-based Concept Importance (CCI), a novel interpretability method that uses CLIP's own patch embeddings to group spatial patches into semantically coherent clusters, mask them, and evaluate relative changes in model predictions. CCI sets a new state of the art on faithfulness benchmarks, surpassing prior methods by large margins; for example, it yields more than a twofold improvement on the deletion-AUC metric for MS COCO retrieval. We further propose that CCI, when combined with GroundedSAM, automatically categorizes predictions as foreground- or background-driven, providing a crucial diagnostic ability. Existing benchmarks such as CounterAnimals, however, rely solely on accuracy and implicitly attribute all performance degradation to background correlations. Our analysis shows this assumption to be incomplete, since many errors arise from viewpoint variation, scale shifts, and fine-grained object confusions. To disentangle these effects, we introduce COVAR, a benchmark that systematically varies object foregrounds and backgrounds. Leveraging CCI with COVAR, we present a comprehensive evaluation of eighteen CLIP variants, offering methodological advances and empirical evidence that chart a path toward more robust VLMs.}
+}
+
+@inproceedings{CVPR_liteembed_2026,
+  bibtex_show={true},
+  author = {Agarwal, Aishwarya and Karanam, Srikrishna and Gandhi, Vineet},
+  title = {{LiteEmbed: Adapting CLIP to Rare Classes}},
+  year = {2026},
+  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR), Findings},
+  month = Jun,
+  preview={liteembed.jpg},
+  pdf = {https://arxiv.org/pdf/2601.09661},
+  abstract={Large-scale vision–language models such as CLIP achieve strong zero-shot recognition but struggle with classes rarely seen in pretraining, including newly emerging entities and culturally specific classes. We introduce LiteEmbed, a lightweight framework for few-shot personalization of CLIP that enables new classes to be added without retraining its encoders. LiteEmbed performs subspace-guided optimization of text embeddings within CLIP’s vocabulary, leveraging a PCA-based decomposition that disentangles coarse semantic directions from fine-grained variations. Two complementary objectives, coarse alignment and fine separation, jointly preserve global semantic consistency while enhancing discriminability among visually similar classes. Once optimized, the embeddings are plug-and-play, seamlessly substituting CLIP’s original text features across classification, retrieval, segmentation, and detection. Extensive experiments demonstrate substantial gains over prior methods, establishing LiteEmbed as an effective approach for adapting CLIP to underrepresented, rare or unseen classes}
+}
+
+
 @inproceedings{Shah_CHI_2026,
   bibtex_show={true},
   author = {Shah, Neil and Sonkar, Yash and Karande, Shirish and Gandhi, Vineet},
