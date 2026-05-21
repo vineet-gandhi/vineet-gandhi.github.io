@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to contribute as an Area Chair for NeurIPS 2026.
+I will be serving as an Area Chair for NeurIPS 2026.
