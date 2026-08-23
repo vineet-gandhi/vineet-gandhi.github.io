@@ -21,12 +21,17 @@ nav_order: 6
   - [T Santoshi](https://www.linkedin.com/in/santhoshi-t/) (MS by research) - part-time with ISRO
   - [Ayan Kashyap](https://www.linkedin.com/in/ayan-kashyap/) (MS by research)
   - [Charan Sahit Lenka](https://www.linkedin.com/in/charan-sahit-lenka-a33440222) (MS by research)
+  - [Prit Kanadiya](https://www.linkedin.com/in/prit-kanadiya/) (MS by research)
   - Siddharth Jain (MS by research)
   - Sudheera Yelimeli (Dual Degree)
+  - Daniel Ashish Abraham (Dual Degree)
+  - Divyanshu Giri (Dual Degree) - jointly advised with Makarand Tapaswi
 
   **Supervising (UG Honours and Research Assistants)**
   - Poorva Parkhi (Research Assitant)
   - Shreyas Mehta (UG Honours)
+  - Kausheya Roy (UG Honours)
+  - Sian Shinjo (UG Honours)
 
   **Supervised (Degree students)**
   - Rahul Sharma (Dual Degree, jointly with C V Jawahar) – joined MSR, then PhD at CMU, now at AWS  
