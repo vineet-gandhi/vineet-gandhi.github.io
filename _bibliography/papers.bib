@@ -1,6 +1,34 @@
 ---
 ---
 
+@inproceedings{sigasia_26,
+  bibtex_show={true},
+  author = {Kashyap, Ayan and Agarwal, Aishwarya and Ghadiyaram, Deepti  and Gandhi, Vineet},
+  title = {{RigIt: Precise Interactive Articulation of Objects in Images}},
+  year = {2026},
+  booktitle = {SIGGRAPH ASIA 2026},
+  month = Dec,
+  preview={rigit.jpg},
+  pdf = {https://rigit-project.github.io/static/pdfs/RigIt.pdf},
+  html = {https://rigit-project.github.io/},
+  abstract={Editing articulated objects within a single image requires precise kinematic control—specifying exactly what moves, along which axis, and by how much. Existing text- and drag-based image editing methods provide only weak or ambiguous control over articulated object structure, often failing to localize the correct movable part or execute precise articulation extents, particularly under occlusion. We propose RigIt, a novel framework that enables precise object articulation by directly “rigging” parts within a 2D image. Our method extracts the underlying geometry of a user-selected part to fit a 3D kinematic proxy, represented as an oriented bounding box (OBB). Users interactively manipulate this explicit 3D handle, which the system projects into a 2D wireframe conditioning signal. A fine-tuned diffusion model then processes this signal, guided by a localized articulation-aware loss, to generate photorealistic edits. Remarkably, despite being trained exclusively on a small synthetic dataset of six categories, RigIt generalizes robustly to real-world, in-the-wild images and unseen object classes. Extensive evaluations on both synthetic and real-world benchmarks demonstrate that our approach significantly outperforms state-of-the-art text and drag-based baselines, achieving over 90% user preference for preserving articulation intent and scene consistency.
+  }
+
+  @inproceedings{arxiv_otat,
+  bibtex_show={true},
+  author = {Gupta, Varun and Gandhi, Vineet and Tapaswi, Makarand},
+  title = {{Attending to Multimodal Generation One Token at a Time}},
+  year = {2026},
+  booktitle = {ArXiv 2607.03738},
+  month = July,
+  preview={otat.jpg},
+  pdf = {https://arxiv.org/pdf/2607.03738},
+  html = {https://katha-ai.github.io/projects/otat/},
+  abstract={Multimodal large language models (MLLMs) generate responses autoregressively, integrating visual and linguistic information in an evolving context. Prior work on interpretability has focused on individual layers and circuits (where), leaving the token-level dynamics of multimodal computation during generation (when) underexplored. We address this gap and study attention shifts as per semantic role; tracking model attention to image, text, instruction, and previously generated tokens, One Token at a Time (OTaT). We introduce multimodal tasks that require explicit switching between visual and textual context within a single response. Across two mainstream model families and four open-weight MLLMs of varying sizes, we establish consistent patterns: attention to image peaks at tokens requiring image-derived information, instruction tokens are revisited during task transitions, and attention to previously generated tokens increases as the generation progresses. Causal attention blocking interventions validate the functional role of these trends. We profile model behavior under disrupted attention and observe responses falling back to language priors, or exhibiting cross-modal leakage, denial, or recovery. Finally, informed of the attention dynamics through our novel analysis, we propose a simple test-time intervention to boost attention to the relevant modality at the right time, significantly improving multimodal task performance.
+  }
+
+
+
 @inproceedings{interspeech_26,
   bibtex_show={true},
   author = {Sonkar, Yash and Kilaru, Yasaswi and Yelimeli, Sudheera and Shah, Neil and Gandhi, Vineet},
@@ -10,6 +38,7 @@
   month = Sept,
   preview={tongue.jpg},
   pdf = {https://vineet-gandhi.github.io/assets/pdf/Tongue2Speech_Interspeech_2026.pdf},
+  htmp = {https://tongue2speech.github.io/},
   abstract={Ultrasound-to-Speech aims to synthesize intelligible speech from tongue ultrasound video. Prior approaches rely mainly on purely convolutional or recurrent architectures. We present Tongue2Speech, a lightweight framework combining explicit 3D spatio-temporal encoding with a multi-layer Transformer to model long-range articulatory dynamics. Spectral distortion metrics (such as MSE) commonly used in prior work are weak indicators of lexical accuracy when used in isolation. Therefore, we evaluate performance using word error rate (WER). On the English TaL corpus, Tongue2Speech achieves 15.93% WER in single-speaker and 31.64% in multi-speaker settings, outperforming six strong baselines. Speaker-specific fine-tuning further improves intelligibility for unseen users. These results highlight tongue-only ultrasound as a promising pathway toward practical silent speech synthesis. Audio samples are available at: https://tongue2speech.github.io/}
 }
 
